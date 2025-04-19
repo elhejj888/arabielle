@@ -33,7 +33,7 @@ export default function ComingSoon() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#fdfaf7] via-[#fdf7f1] to-[#f9f0e6] opacity-70"></div>
       
       {/* Desert scene as a gentle accent */}
-      <div className="absolute top-1/4 left-0 right-0 mx-auto w-full max-w-2xl h-64 opacity-10 z-0">
+      <div className="absolute top-1/6 left-0 right-0 mx-auto w-full max-w-2xl h-64 opacity-10 z-0">
         <div className="relative w-full h-full">
           <Image
             src="/desert-scene.png"
@@ -46,39 +46,29 @@ export default function ComingSoon() {
       </div>
       
       {/* Main content with enhanced whitespace and feminine typography */}
-      <div className="flex flex-col items-center justify-center min-h-screen w-full max-w-3xl mx-auto px-8 pt-16 pb-24 z-10">
+      <div className="flex flex-col items-center justify-center min-h-screen w-full max-w-3xl mx-auto px-8 pt-16 pb-20 z-10">
         {/* Refined brand presentation */}
-        <div className="relative mb-16 text-center transform transition-all duration-1000 translate-y-0">
-          <span className="block font-serif uppercase tracking-[0.3em] text-[#c1a173] opacity-80 mb-6 font-light text-xs md:text-sm">
-            CRAFTED WITH INTENTION
-          </span>
-          
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-[#b69067] tracking-wide mb-6">
+        <div className="relative mb-12 text-center transform transition-all duration-1000 translate-y-0">
+          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-[#b69067] tracking-wide">
             Arabielle
           </h1>
-          
-          <span className="block font-serif uppercase tracking-[0.25em] text-[#c1a173] opacity-80 font-light text-xs md:text-sm">
-            HEIRLOOMS IN THE MAKING
-          </span>
         </div>
-        
-        {/* Simple, elegant divider */}
         
         {/* Refined feminine tagline */}
-        <div className="relative px-4 py-8 text-center">
-        <div className="relative mb-16 max-w-lg w-full">
-          <div className="absolute -left-3 -top-3 w-8 h-8 border-t border-l border-[#e6d5c3] opacity-70"></div>
-          <div className="absolute -right-3 -top-3 w-8 h-8 border-t border-r border-[#e6d5c3] opacity-70"></div>
-          
-            <p className="font-serif text-lg md:text-2xl text-[#8c7361] tracking-wide">
-              <span className="block mb-3 font-light opacity-90">For the woman who carries</span>
-              <span className="block text-[#b69067] font-normal tracking-widest md:text-3xl transform transition-all duration-700 hover:scale-105">stories</span>
-              <span className="block mt-3 font-light italic opacity-90">not just things.</span>
-            </p>
-          
-          <div className="absolute -left-3 -bottom-3 w-8 h-8 border-b border-l border-[#e6d5c3] opacity-70"></div>
-          <div className="absolute -right-3 -bottom-3 w-8 h-8 border-b border-r border-[#e6d5c3] opacity-70"></div>
-        </div>
+        <div className="relative mb-16">
+          <div className="relative max-w-lg w-full">
+            <div className="absolute -left-3 -top-3 w-8 h-8 border-t border-l border-[#e6d5c3] opacity-70"></div>
+            <div className="absolute -right-3 -top-3 w-8 h-8 border-t border-r border-[#e6d5c3] opacity-70"></div>
+            <div className="px-4 py-8 text-center">
+              <p className="relative font-serif text-lg md:text-2xl text-[#8c7361] tracking-wide">
+                <span className="block mb-3 font-light opacity-90">For the woman who carries</span>
+                <span className="block text-[#b69067] font-normal tracking-widest md:text-3xl transform transition-all duration-700 hover:scale-105">stories</span>
+                <span className="block mt-3 font-light italic opacity-90">not just things.</span>
+              </p>
+            </div>
+            <div className="absolute -left-3 -bottom-3 w-8 h-8 border-b border-l border-[#e6d5c3] opacity-70"></div>
+            <div className="absolute -right-3 -bottom-3 w-8 h-8 border-b border-r border-[#e6d5c3] opacity-70"></div>
+          </div>
         </div>
         
         {/* Softer email subscription form */}
